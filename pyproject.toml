@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dca-ml-backend"
+version = "0.1.0"
+description = "AI-powered DCA prioritization and recovery engine"
+requires-python = ">=3.10,<3.12"
+
+dependencies = [
+  "flask==2.3.3",
+  "flask-cors==4.0.0",
+  "numpy==1.24.4",
+  "pandas==1.5.3",
+  "scikit-learn==1.3.2",
+  "joblib==1.3.2"
+]
